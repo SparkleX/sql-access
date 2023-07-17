@@ -1,6 +1,13 @@
+import { Connection } from "db-conn";
+
 export class SqlAccess {
     private quoteChar: string = '"';
 
+    public async insert(conn:Connection, table:string, o:object) {
+        await conn.execute("1", ['a']);
+        await conn.execute("2", ['b']);
+        return ;
+    }
     public insertSql(table:string, o:object):string {
         const fields = this.sqlFieldsList(o);
         const params = this.sqlParams(o);

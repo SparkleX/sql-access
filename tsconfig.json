@@ -13,7 +13,7 @@
 		"emitDecoratorMetadata": true
 	},
 	"include": ["src"],
-	"exclude": ["**/*.spec.ts"],
+	"exclude": ["**/*.spec.ts1"],
 	"ts-node": {
 		"esm": true,
 		"experimentalSpecifierResolution": "node"
