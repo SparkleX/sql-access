@@ -1,0 +1,4 @@
+git remote add all https://github.com/SparkleX/sql-access
+git remote set-url --add --push all https://gitee.com/SparkleX/sql-access
+git remote set-url --add --push all https://github.com/SparkleX/sql-access
+git branch --set-upstream-to all/master
