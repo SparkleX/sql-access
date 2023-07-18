@@ -1,4 +1,4 @@
-import { SqlAccess } from "./SqlAccess";
+import { SqlAccess } from "./SqlAccess.js";
 import { Connection } from "db-conn";
 export class DbAccess extends SqlAccess{
 	public async insert(conn: Connection, table: string, o: object) {

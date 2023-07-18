@@ -1,7 +1,7 @@
 //import { Connection } from "db-conn";
 
 export class SqlAccess {
-	private quoteChar: string = '"';
+	public quoteChar: string = '"';
 
 	/*  public async insert(conn:Connection, table:string, o:object) {
 		  await conn.execute("1", ['a']);
